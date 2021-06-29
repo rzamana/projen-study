@@ -1,4 +1,5 @@
 const { AwsCdkConstructLibrary } = require('projen');
+const { TaskRuntime } = require('projen/lib/tasks');
 const project = new AwsCdkConstructLibrary({
   author: 'Rafael Z. Kineippe',
   authorAddress: 'rafael@zamana.com.br',
@@ -9,7 +10,12 @@ const project = new AwsCdkConstructLibrary({
   cdkAssert: true, /* Install the @aws-cdk/assert library? */
   license: 'Apache-2.0', /* License's SPDX identifier. */
   licensed: true, /* Indicates if a license should be added. */
-
+  autoApproveProjenUpgrades: true,
+  autoApproveUpgrades: true,
+  dependabot: true,
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+  },
   cdkDependencies: [
     '@aws-cdk/aws-iam',
     '@aws-cdk/core',
