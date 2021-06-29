@@ -2,4 +2,4 @@
 
 Main project for testing things and check the latest of Projen
 
-Releasing the major version 
+Forcing the major version
