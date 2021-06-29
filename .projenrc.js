@@ -14,7 +14,7 @@ const project = new AwsCdkConstructLibrary({
   autoApproveUpgrades: true,
   dependabot: true,
   autoApproveOptions: {
-    secret: 'GITHUB_TOKEN'
+    secret: 'GITHUB_TOKEN',
   },
   cdkDependencies: [
     '@aws-cdk/aws-iam',
