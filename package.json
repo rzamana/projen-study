@@ -112,7 +112,11 @@
   "stability": "stable",
   "jsii": {
     "outdir": "dist",
-    "targets": {},
+    "targets": {
+      "python": {
+        "distName": "rzamana-projen-study"
+      }
+    },
     "tsc": {
       "outDir": "lib",
       "rootDir": "src"

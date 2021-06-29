@@ -17,6 +17,9 @@ const project = new AwsCdkConstructLibrary({
   // devDeps: [],                       /* Build dependencies for this module. */
   // packageName: undefined,            /* The "name" in package.json. */
   // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
-  // release: undefined,                /* Add release management to this project. */
+  release: true,                        /* Add release management to this project. */
+  python: {
+    distName: 'rzamana-projen-study'
+  }
 });
 project.synth();
