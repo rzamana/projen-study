@@ -114,7 +114,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "rzamana-projen-study"
+        "distName": "projen-study",
+        "module": "projen_study"
       }
     },
     "tsc": {
