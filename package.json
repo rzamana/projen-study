@@ -2,7 +2,7 @@
   "name": "projen-study",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rafael.zamana.kineippe/projen-study.git"
+    "url": "https://github.com/rzamana/projen-study.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
@@ -27,7 +27,7 @@
   },
   "author": {
     "name": "Rafael Z. Kineippe",
-    "email": "rafael.zamana.kineippe@sentia.com",
+    "email": "rafael@zamana.com.br",
     "organization": false
   },
   "devDependencies": {

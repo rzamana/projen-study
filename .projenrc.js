@@ -1,11 +1,11 @@
 const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   author: 'Rafael Z. Kineippe',
-  authorAddress: 'rafael.zamana.kineippe@sentia.com',
+  authorAddress: 'rafael@zamana.com.br',
   cdkVersion: '1.95.2',
   defaultReleaseBranch: 'main',
   name: 'projen-study',
-  repositoryUrl: 'https://github.com/rafael.zamana.kineippe/projen-study.git',
+  repositoryUrl: 'https://github.com/rzamana/projen-study.git',
 
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
   // cdkTestDependencies: undefined,    /* AWS CDK modules required for testing. */
